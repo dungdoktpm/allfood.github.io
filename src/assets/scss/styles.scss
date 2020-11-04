@@ -1,5 +1,5 @@
 /* 0. Abstracts
-======================================================================== */ 
+======================================================================== */
 @import "abstracts/include_media.scss";
 @import "abstracts/variables.scss";
 @import "abstracts/extends.scss";
@@ -8,8 +8,13 @@
 
 /* 1. Base
 ======================================================================== */
-@import "base/**/*.scss";
+// @import "base/**/*.scss";
+@import "base/*.scss";
 
 /* 2. Components
 ======================================================================== */
-@import "components/**/*.scss";
+@import "components/*.scss";
+
+/* 3.Layouts
+======================================================================== */
+@import "layouts/*.scss";

@@ -1,0 +1,97 @@
+// ************ section home-slider
+.home-slider {
+  padding-top: 30rem;
+  padding-bottom: 30rem;
+}
+
+// ******************* section about
+
+.about {
+  padding-top: 9rem;
+  @media (min-width: 768px) {
+    padding-top: 19.5rem;
+  }
+  .text--desc {
+    color: $color-primary;
+  }
+}
+
+.about--reverser {
+  padding-bottom: 9rem;
+  @media (min-width: 768px) {
+    padding-top: 14rem;
+  }
+  & .container > .row {
+    flex-direction: column-reverse;
+    @media (min-width:768px) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.about--style03 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  @media (min-width:768px) {
+    padding-top: 18.5rem;
+    padding-bottom: 18rem;
+  }
+  .btn--subscribe {
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+//  ************* gallery
+.gallery {
+  padding-top: 9rem;
+  @media (min-width:768px) {
+    padding-top: 18.5rem;
+  }
+}
+
+// ************** section booking
+.booking {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  @media (min-width:768px) {
+    padding-top: 12rem;
+    padding-bottom: 13rem;
+  }
+}
+// ************ section service
+.service {
+  padding-top:9rem;
+  padding-bottom: 9rem;
+  @media (min-width:768px) {
+    padding-top: 18rem;
+    padding-bottom: 17rem;
+  }
+  .title {
+    margin-bottom: 0;
+    @media (min-width:768px) {
+      margin-bottom: 7rem;
+    }
+  }
+}
+
+// ************** section blog
+.blog {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  @media (min-width: 768px) {
+    padding-top: 18rem;
+    padding-bottom: 20rem;
+  }
+  .title {
+    margin-bottom: 3.5rem;
+    @media (min-width: 768px) {
+      margin-bottom: 7rem;
+    }
+  }
+  &-single {
+    margin-bottom: 8rem;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+}

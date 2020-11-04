@@ -1,0 +1,93 @@
+
+.btn {
+  border: 0;
+  color: $color-dark;
+  background: none;
+  padding: px(20);
+  font-size: px(14);
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none !important;
+}
+
+.btn--overlay::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .6;
+  transition: .5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4,0.7,);
+}
+
+.btn--overlayY::before {
+  background-color: $color-secondary;
+  transform: scaleY(0);
+}
+.btn--overlayY:hover::before {
+  transition: .7s;
+  transform: scaleY(1);
+}
+.btn--overlayX::before {
+  background-color: #e74d00;
+  transform: scaleX(0);
+}
+.btn--overlayX:hover::before {
+  transition: .7s;
+  transform: scaleX(1);
+}
+// *** btn primary
+.btn--primary {
+  padding: 1.5rem 2.5rem;
+  border: 1px solid $color-secondary;
+  color: $color-text-btn;
+  line-height: 21px;
+  position: relative;
+  transition:0.5s;
+  @media (min-width: 768px) {
+    padding: 1.9rem 4.7rem;
+  }
+}
+.btn--primary:hover {
+  color: $color-light;
+  background-color: $color-secondary;
+}
+
+// btn secondary
+.btn--secondary {
+  color: $color-light;
+  background-color: $color-secondary;
+  font-size: 16px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition:0.5s;
+}
+.btn--secondary:hover {
+  color: $color-light;
+}
+
+.btn--select {
+  padding: 3rem 4rem;
+  border-radius: 6px;
+  line-height: 0;
+  font-weight: 400;
+}
+// btn tertiary
+.btn--tertiary {
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  padding: 1.5rem;
+  color: $color-light;
+  background-color: $color-secondary;
+  border-radius: 0px;
+  text-align: center;
+}
+

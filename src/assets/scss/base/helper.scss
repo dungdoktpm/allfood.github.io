@@ -1,0 +1,98 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Josefin Sans",sans-serif;
+  font-style: normal;
+}
+
+// text style
+.text--white {
+  color: $color-light;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--desc {
+  color: $color-desc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text--stylePrimary {
+  color: $color-desc !important;
+  font-size: 14px;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.text--styleSecondary {
+  color: $color-primary !important;
+  font-size: 14px;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+// layout
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.align-center {
+  align-items: center;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#000 ;
+  opacity: .6;
+}
+
+//
+
+.mt-30 {
+  margin-top: 3rem;
+}
+.mt-50 {
+  margin-top: 5rem;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+.mb-25 {
+  margin-bottom: 2.5rem;
+}
+.mb-30 {
+  margin-bottom: 3rem;
+}
+.mb-40 {
+  margin-bottom: 4rem;
+}
+.mb-50 {
+  margin-bottom: 5rem;
+}
+.mb-65 {
+  margin-bottom: 6.5rem;
+}
+

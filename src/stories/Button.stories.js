@@ -6,7 +6,7 @@ export default {
 
 export const Primary = () => {
   return /* html */ `
-    <button class="btn">
+    <button class="btn btn--primary btn--overlay btn--overlayY">
       Button Primary
     </button>
   `;
@@ -14,8 +14,18 @@ export const Primary = () => {
 
 export const Secondary = () => {
   return /* html */ `
-    <button class="btn btn--secondary">
+    <button class="btn btn--secondary btn--select btn--overlay btn--overlayX">
       Button Secondary
     </button>
   `;
 };
+
+export const Tertiary = () => {
+  return /* html */ `
+    <button class="btn btn--tertiary">
+      Button Tertiary
+    </button>
+  `;
+};
+
+

@@ -1,0 +1,48 @@
+.single {
+  padding: 4.5rem 1rem 0;
+  @media (min-width: 768px) {
+    padding: 7.9rem 2.3rem;
+    &__icon span::before {
+      font-size: 60px;
+    }
+  }
+  &__inner {
+    padding: 0 1.6rem;
+  }
+  &__icon span {
+    display: block;
+    margin-bottom: 1.6rem;
+  }
+  &__icon span::before {
+    font-size: 45px;
+    margin-left: 0;
+  }
+  &__content {
+    font-size: 25px;
+    padding: 0 1.5rem;
+    @media (min-width: 768px) {
+      .single__desc {
+        font-size: 14px;
+      }
+    }
+    .single__cap {
+      font-weight: $font-semi-bold;
+      line-height: 1.4;
+      margin-bottom: 1.9rem;
+      a {
+        color: $color-primary;
+        font-size: 25px;
+        font-weight: $font-semi-bold;
+        font-family: $font-primary;
+      }
+    }
+    .single__desc {
+      font-size: 14px;
+      font-family:$font-secondary ;
+    }
+  }
+}
+
+.single.active {
+  box-shadow: 0 10px 30px 0 rgba(133,66,189,.1);
+}

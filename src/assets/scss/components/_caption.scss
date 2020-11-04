@@ -1,0 +1,19 @@
+.caption {
+  display: flex;
+  align-items: center;
+  &__icon i {
+    font-size: 45px;
+    padding-right: 2rem;
+  }
+  &__icon i::before {
+    font-size: 40px;
+    margin-left: 0;
+  }
+  &__content {
+    line-height: 1.6;
+    p {
+      font-size: 14px;
+    }
+
+  }
+}

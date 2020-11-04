@@ -1,13 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="./assets/fonts/Flaticon/flaticon.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-    <h1>Home page</h1>
-    <script src="assets/js/scripts.js"></script>
+  <div class="root">
+    <header class="header header--area">
+      <div class="container">
+        <div class="header">
+          <div class="header__logo">
+            <img src="./assets/images/logo.png" alt="">
+          </div>
+          <!--btn toggle-->
+          <div class="header__toggle">
+          </div>
+          <nav class="nav">
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Menu</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Blog</a>
+              </li>
+              <li class="menu__item">
+                <a href="" class="menu__link">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn--primary btn--overlay btn--overlayY">
+              Order Online
+            </button>
+          </nav>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+      <section class="bg-img slider-area home-slider" style="background-image: url('./assets/images/h1_hero.png');">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-9 col-lg-9">
+              <div class="hero">
+                <div class="hero__inner">
+                  <div class="title hero__title">
+                    <span>Discover Your Teste</span>
+                    <h1>
+                      We belive good food offer great smile
+                    </h1>
+                  </div>
+                  <p class="text--desc hero__desc">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat is aute irure.
+                  </p>
+                  <a href="" class="hero__btn">
+                    <button class="btn btn--secondary btn--select btn--overlay btn--overlayX">
+                      Resurvation
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-img" style="background-image: url('./assets/images/section_bg02.png');">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="row">
+            <div class="sm-12 col-md-4 col-lg-4 mb-30">
+              <div class="footer__log">
+                <img src="./assets/images/logo2_footer.png" alt="">
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 mb-20">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 mb-20">
+                  <div class="widget">
+                    <h4 class="widget__title">
+                      Navigation
+                    </h4>
+                    <div class="widget__content">
+                      <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Categories</a></li>
+                        <li><a href="">Contacts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 mb-20">
+                  <div class="widget">
+                    <h4 class="widget__title">
+                      Navigation
+                    </h4>
+                    <div class="widget__content">
+                      <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Categories</a></li>
+                        <li><a href="">Contacts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sm-12 col-md-4 col-lg-4">
+              <div class="widget widget--img">
+                <h4 class="widget__title">
+                  Navigation
+                </h4>
+                <div class="widget__content">
+                  <div class="widget__img">
+                    <img src="./assets/images/img01.png" />
+                  </div>
+                  <div class="widget__img">
+                    <img src="./assets/images/img02.png" />
+                  </div>
+                  <div class="widget__img">
+                    <img src="./assets/images/img03.png" />
+                  </div>
+                  <div class="widget__img">
+                    <img src="./assets/images/img04.png" />
+                  </div>
+                  <div class="widget__img">
+                    <img src="./assets/images/img05.png" />
+                  </div>
+                  <div class="widget__img">
+                    <img src="./assets/images/img06.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+  <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>

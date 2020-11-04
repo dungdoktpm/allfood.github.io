@@ -1,0 +1,14 @@
+div.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.header--area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
