@@ -47,6 +47,18 @@
   @media (min-width:768px) {
     padding-top: 18.5rem;
   }
+  &__list {
+    max-height: 73rem;
+    overflow: hidden;
+  }
+  &__item {
+    transform: scale(1) translate3d(0,0,0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: all .3s ease-in-out;
+    pointer-events: auto;
+  }
 }
 
 // ************** section booking

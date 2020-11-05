@@ -27,3 +27,16 @@ export const GallerySingle = () => {
   `;
 };
 
+export const GalleryOptions = () => {
+  return /* html */ `
+    <div class="gallery__options">
+      <ul>
+        <li class="option__item">Speccial</li>
+        <li class="option__item">Lunch</li>
+        <li class="option__item">Brakefirst</li>
+        <li class="option__item">Dinner</li>
+      </ul>
+    </div>
+  `;
+};
+
